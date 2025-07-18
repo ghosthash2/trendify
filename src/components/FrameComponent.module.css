@@ -1,0 +1,505 @@
+.img73058Icon {
+  width: 120px;
+  border-radius: 87.5px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.curtisLeopore,
+.curtisleopore,
+.img73058Icon {
+  position: relative;
+  cursor: pointer;
+}
+.curtisLeopore {
+  margin: 0;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.curtisleopore {
+  display: inline-block;
+  min-width: 63px;
+}
+.k {
+  font-family: var(--font-inter);
+}
+.mc642k {
+  position: relative;
+  cursor: pointer;
+}
+.curtisleoporeParent,
+.mc642kWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.mc642kWrapper {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3);
+  font-size: var(--font-size-12);
+}
+.curtisleoporeParent {
+  flex-direction: column;
+  gap: var(--gap-12);
+}
+.frameWrapper {
+  justify-content: flex-start;
+  padding: 0 9px var(--padding-8);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.frameDiv,
+.frameWrapper,
+.postsCountParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.postsCountParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.frameDiv {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-3) 0 var(--padding-4);
+}
+.following {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+  cursor: pointer;
+}
+.followingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.frameGroup {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-3);
+}
+.curtisLeoporeParent,
+.frameContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-6) 0 var(--padding-4);
+  font-size: var(--font-size-14);
+}
+.curtisLeoporeParent {
+  margin: 0;
+  flex-direction: column;
+  gap: var(--gap-4);
+  text-align: left;
+  font-size: var(--font-size-16);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.unionIcon {
+  height: 12px;
+  width: 8px;
+  position: relative;
+  cursor: pointer;
+}
+.unionParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-2);
+}
+.likes {
+  position: relative;
+  display: inline-block;
+  min-width: 22px;
+  cursor: pointer;
+}
+.likesWrapper,
+.mParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.likesWrapper {
+  flex-direction: row;
+  padding: 0 9px 0 var(--padding-8);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.mParent {
+  flex-direction: column;
+  gap: var(--gap-3);
+  font-size: var(--font-size-14);
+  color: var(--color-white);
+}
+.frameParent1,
+.img73058Parent {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.frameParent1 {
+  flex-direction: column;
+  gap: var(--gap-12);
+}
+.img73058Parent {
+  flex-direction: row;
+  gap: 19.5px;
+  text-align: left;
+  font-size: var(--font-size-12);
+  color: var(--color-mediumspringgreen);
+  font-family: var(--font-inter);
+}
+.img730410Icon {
+  width: 121px;
+  position: relative;
+  border-radius: 86.5px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.img730410Wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2);
+}
+.tjr {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 700;
+  font-family: inherit;
+}
+.authorNameWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2) 0 var(--padding-3);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.authorNameWrapper,
+.postInfoInner,
+.tjrParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tjrParent {
+  flex-direction: column;
+  gap: var(--gap-2);
+}
+.postInfoInner {
+  flex-direction: row;
+  padding: 0 var(--padding-1);
+}
+.mc112m {
+  position: relative;
+}
+.frameWrapper1,
+.mc112mWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.mc112mWrapper {
+  justify-content: flex-start;
+  padding: 0 var(--padding-8);
+  font-size: var(--font-size-12);
+}
+.frameWrapper1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-2) 0 7px;
+}
+.following1 {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.frameParent3,
+.postInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.frameParent3 {
+  align-self: stretch;
+  align-items: flex-end;
+  gap: var(--gap-3);
+  font-size: var(--font-size-14);
+}
+.postInfo {
+  width: 107px;
+  align-items: flex-start;
+  gap: var(--gap-12);
+}
+.arrowUp1ArrowUpKeyboardIcon {
+  height: 12px;
+  width: 8px;
+  position: relative;
+}
+.shareLabelSpacer {
+  position: relative;
+  display: inline-block;
+  min-width: 28px;
+}
+.arrowUp1ArrowUpKeyboardParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-4);
+}
+.likes1 {
+  position: relative;
+  display: inline-block;
+  min-width: 22px;
+}
+.frameParent2,
+.interactionButtons {
+  display: flex;
+  justify-content: flex-start;
+}
+.interactionButtons {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-12);
+  font-size: var(--font-size-12);
+  color: var(--color-mediumspringgreen);
+}
+.frameParent2 {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 26.5px;
+  max-width: 100%;
+}
+.profileAvatarIcon {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+  z-index: 1;
+}
+.profileAvatarWrapper {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-1);
+  box-sizing: border-box;
+  min-width: 78px;
+}
+.pomkori {
+  position: relative;
+  display: inline-block;
+  min-width: 46px;
+}
+.frameWrapper3,
+.pomkoriWrapper,
+.usernameDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.pomkoriWrapper {
+  padding: 0 var(--padding-3);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.frameWrapper3,
+.usernameDetails {
+  padding: 0 var(--padding-2) 0 var(--padding-1);
+}
+.frameWrapper3 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-1) 0 var(--padding-4);
+}
+.arrowUp1ArrowUpKeyboardWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-2) 0 0;
+}
+.shareLabelSpacer1 {
+  position: relative;
+  display: inline-block;
+  min-width: 19px;
+}
+.frameParent6,
+.interactionButtonsKoriInner {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent6 {
+  justify-content: flex-start;
+  gap: var(--gap-3);
+}
+.interactionButtonsKoriInner {
+  justify-content: flex-end;
+  padding: 0 7px 0 var(--padding-14);
+}
+.interactionButtonsKori,
+.likesFrame {
+  display: flex;
+  justify-content: flex-start;
+}
+.likesFrame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-15) 0 var(--padding-14);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.interactionButtonsKori {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-12);
+  font-size: var(--font-size-12);
+  color: var(--color-crimson-100);
+}
+.frameParent4,
+.frameWrapper2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.frameParent4 {
+  flex: 1;
+  align-items: flex-end;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: var(--gap-24);
+}
+.frameWrapper2 {
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 var(--padding-2) 0 var(--padding-1);
+  box-sizing: border-box;
+}
+.profileAvatarAndrea {
+  height: 120px;
+  width: 120px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.thekittyandrea {
+  position: relative;
+  display: inline-block;
+  min-width: 68px;
+}
+.shareInteraction {
+  gap: var(--gap-6);
+}
+.commentEngagement,
+.postsCounter,
+.shareInteraction {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.commentEngagement {
+  align-self: stretch;
+  padding: 0 var(--padding-11) 0 var(--padding-8);
+  font-size: var(--font-size-12);
+  color: var(--color-mediumspringgreen);
+}
+.postsCounter {
+  padding: 0 17px 0 13px;
+}
+.following3 {
+  position: relative;
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.followContainer {
+  padding: 0 var(--padding-6) 0 0;
+}
+.followContainer,
+.metrics {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-3);
+}
+.likesWrapper1,
+.socialDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.likesWrapper1 {
+  justify-content: flex-start;
+  padding: 0 var(--padding-18) 0 13px;
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.socialDetails {
+  align-self: stretch;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  font-size: var(--font-size-14);
+}
+.dataHolderParent,
+.userPanel {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.dataHolderParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: var(--gap-12);
+}
+.userPanel {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2);
+  box-sizing: border-box;
+  min-width: 120px;
+}
+.profileAvatarAndreaParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: 25px;
+}
+.frameParent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 34.3px;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-16);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

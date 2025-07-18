@@ -1,0 +1,174 @@
+.latest,
+.trending {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-family: inherit;
+}
+.trending {
+  font-weight: 400;
+  cursor: pointer;
+}
+.latest {
+  font-weight: 700;
+  color: var(--color-white);
+}
+.containerInner,
+.containerNested {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.containerNested {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.containerInner {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 59px 0 var(--padding-60);
+}
+.divider {
+  flex: 1;
+  position: relative;
+  border-top: 1px solid var(--color-gray-300);
+  max-width: 100%;
+}
+.divider,
+.divider1,
+.dividerParent {
+  height: 1px;
+  box-sizing: border-box;
+}
+.divider1 {
+  width: 198px;
+  position: relative;
+  border-top: 1px solid var(--color-crimson-100);
+  margin-left: -198px;
+}
+.dividerParent {
+  align-self: stretch;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-1);
+}
+.container,
+.dividerParent,
+.profileContainer {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.container {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-19);
+}
+.profileContainer {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 23px 28px;
+  box-sizing: border-box;
+}
+.userStreamlineBlockFree {
+  width: 16px;
+  height: 16px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.img73057 {
+  width: 120px;
+  height: 120px;
+  position: relative;
+  border-radius: 87.5px;
+  display: none;
+}
+.freeRemixinterfaceEssential {
+  height: 24px;
+  width: 24px;
+  position: relative;
+}
+.contentWrapper,
+.contentWrapperChild {
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-200);
+  border: 1px solid var(--color-crimson-100);
+}
+.contentWrapperChild {
+  height: 55px;
+  width: 129px;
+  position: relative;
+  box-sizing: border-box;
+  display: none;
+}
+.contentWrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14) 51px 13px 52px;
+  z-index: 1;
+}
+.magnifyingGlassStreamlineSh {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.searchIcons {
+  width: 68px;
+  box-sizing: border-box;
+}
+.searchIcons,
+.searchIcons1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15);
+}
+.searchBarContent {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.coinDirectoryLatest,
+.searchArea {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.searchArea {
+  width: 335px;
+  height: 55px;
+  flex-direction: row;
+  padding: 0 var(--padding-18);
+  max-width: 100%;
+}
+.coinDirectoryLatest {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  flex-direction: column;
+  padding: var(--padding-48) 0 7px;
+  gap: 42px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-20);
+  color: var(--color-gray-300);
+  font-family: var(--font-inter);
+}

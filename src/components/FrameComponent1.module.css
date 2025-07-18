@@ -1,0 +1,49 @@
+.name {
+  position: relative;
+}
+.nameContainerChild {
+  height: 40px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-10);
+  max-width: 100%;
+  overflow: hidden;
+}
+.phillipBanks {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  display: inline-block;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-12);
+  background-color: transparent;
+  height: 15px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  left: 11px;
+  font-weight: 700;
+  color: var(--color-gray-300);
+  text-align: left;
+  padding: 0;
+  z-index: 1;
+}
+.nameContainer,
+.nameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.nameContainer {
+  flex-direction: row;
+  position: relative;
+}
+.nameParent {
+  flex-direction: column;
+  gap: var(--gap-5);
+  text-align: left;
+  font-size: var(--font-size-12);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

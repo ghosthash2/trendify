@@ -1,0 +1,480 @@
+.searchBarChild {
+  height: 55px;
+  width: 254px;
+  position: relative;
+  border-radius: var(--br-5);
+  display: none;
+}
+.magnifyingGlassGlassSearchIcon {
+  height: 15.9px;
+  width: 15.4px;
+  position: relative;
+  z-index: 1;
+}
+.searchForA {
+  position: relative;
+  z-index: 1;
+}
+.searchBar {
+  flex: 1;
+  border-radius: var(--br-5);
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-20) var(--padding-20) 19.1px;
+  gap: 11.6px;
+}
+.cancel {
+  position: relative;
+}
+.cancelWrapper,
+.searchAccountsInner,
+.searchBarParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.cancelWrapper {
+  flex-direction: column;
+  padding: var(--padding-20) 0 0;
+}
+.searchAccountsInner,
+.searchBarParent {
+  flex-direction: row;
+  max-width: 100%;
+}
+.searchBarParent {
+  flex: 1;
+  gap: 27px;
+}
+.searchAccountsInner {
+  width: 359px;
+  padding: 0 var(--padding-19);
+  box-sizing: border-box;
+}
+.accounts,
+.coins {
+  position: relative;
+  display: inline-block;
+}
+.coins {
+  min-width: 45px;
+  cursor: pointer;
+}
+.accounts {
+  min-width: 78px;
+}
+.coinsParent,
+.searchAccountsChild {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.coinsParent {
+  width: 254px;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.searchAccountsChild {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 62px;
+  font-size: var(--font-size-16);
+}
+.launch,
+.tiktok {
+  position: relative;
+  display: none;
+  color: var(--color-black);
+  min-width: 39px;
+  cursor: pointer;
+}
+.launch {
+  min-width: 44px;
+}
+.frameChild {
+  height: 55px;
+  width: 55px;
+  position: relative;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.phillipBanks {
+  position: relative;
+  display: inline-block;
+  min-width: 103px;
+}
+.phillipBanksWrapper {
+  justify-content: flex-start;
+  padding: 0 var(--padding-3) 0 var(--padding-2);
+}
+.phillipBanksWrapper,
+.statsColumn,
+.statsRow {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.statsColumn {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.statsRow {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4) 0 var(--padding-11);
+}
+.following {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.statLabels {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.profileDetails,
+.statsRowParent {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.statsRowParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-end;
+  gap: var(--gap-2);
+  font-size: var(--font-size-12);
+}
+.profileDetails {
+  flex: 1;
+  gap: 9px;
+}
+.ellipseParent,
+.frameWrapper,
+.profileDetails {
+  display: flex;
+  align-items: flex-start;
+}
+.ellipseParent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: var(--gap-8);
+}
+.frameWrapper {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2);
+  box-sizing: border-box;
+  min-width: 111px;
+}
+.likes {
+  position: relative;
+  display: inline-block;
+  min-width: 22px;
+}
+.firstStat,
+.mediaStats,
+.statLikes {
+  display: flex;
+  align-items: flex-start;
+}
+.statLikes {
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0 var(--padding-6) 0 var(--padding-5);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.firstStat,
+.mediaStats {
+  flex-direction: column;
+}
+.firstStat {
+  justify-content: flex-start;
+  gap: var(--gap-2);
+}
+.mediaStats {
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-2);
+}
+.shareIcon,
+.tikTokLogo {
+  position: absolute;
+  margin: 0 !important;
+  cursor: pointer;
+}
+.shareIcon {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-30);
+  background-color: var(--color-mediumspringgreen);
+  z-index: 2;
+}
+.tikTokLogo {
+  height: 1.6px;
+  width: 1.6px;
+  top: 9.8px;
+  left: 17.3px;
+  z-index: 3;
+}
+.vectorIcon,
+.vectorIcon1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  z-index: 4;
+}
+.vectorIcon1 {
+  top: 9.3px;
+  left: 0.5px;
+  width: 3.9px;
+  height: 3.9px;
+  z-index: 5;
+}
+.vectorParent {
+  height: 13.7px;
+  width: 13.7px;
+  position: relative;
+}
+.launch1 {
+  position: relative;
+  cursor: pointer;
+  z-index: 3;
+}
+.shareLink {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6) var(--padding-4) 7px 9px;
+  position: relative;
+  gap: 1.3px;
+}
+.shareLinkChild {
+  height: 28px;
+  width: 72px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: none;
+}
+.shareExternalLink1Streamli {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  object-fit: cover;
+  z-index: 3;
+}
+.tiktok1,
+.tiktok2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  min-width: 39px;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.tiktok2 {
+  z-index: 2;
+}
+.innerLogo {
+  align-self: stretch;
+  height: 15px;
+  position: relative;
+}
+.innerLogoWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-2) 0 0;
+}
+.externalLink,
+.innerLogoWrapper,
+.shareLink1 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.shareLink1 {
+  align-self: stretch;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  flex-direction: row;
+  padding: var(--padding-4) 9px 7px;
+}
+.externalLink {
+  flex-direction: column;
+  gap: 7px;
+  color: var(--color-black);
+}
+.frameParent,
+.mediaStatsParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+.mediaStatsParent {
+  width: 142px;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  font-size: var(--font-size-12);
+}
+.frameParent {
+  flex: 1;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-end;
+  gap: 31px;
+  max-width: 100%;
+}
+.resultEntry {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-3);
+  box-sizing: border-box;
+  font-size: var(--font-size-16);
+}
+.recentResults,
+.recentResultsWrapper,
+.resultEntry {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.recentResults {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-15);
+}
+.recentResultsWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-16) 459px;
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-14);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.frameItem {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  margin-top: -1px;
+}
+.freeRemixinterfaceEssential {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  cursor: pointer;
+}
+.userContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-15);
+}
+.profileSearchChild {
+  height: 55px;
+  width: 129px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-200);
+  border: 1px solid var(--color-crimson-100);
+  box-sizing: border-box;
+  display: none;
+}
+.magnifyingGlassStreamlineSh {
+  height: 24px;
+  width: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+  z-index: 1;
+}
+.profileSearch {
+  height: 55px;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-200);
+  border: 1px solid var(--color-crimson-100);
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-14) 49px 13px 54px;
+}
+.userStreamlineFontAwesomeR {
+  width: 24px;
+  height: 24px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+.userContainerParent {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.frameGroup,
+.profileSuggestion,
+.searchAccounts {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.profileSuggestion {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 76px 0 71px;
+}
+.frameGroup,
+.searchAccounts {
+  flex-direction: column;
+}
+.frameGroup {
+  align-self: stretch;
+  gap: 7px;
+}
+.searchAccounts {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  padding: 57px 0 var(--padding-6);
+  box-sizing: border-box;
+  gap: var(--gap-32);
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-12);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

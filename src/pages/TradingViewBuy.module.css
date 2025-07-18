@@ -1,0 +1,425 @@
+.img73055Icon {
+  width: 120px;
+  border-radius: 87.5px;
+  max-height: 100%;
+  object-fit: cover;
+}
+.curtisLeopore,
+.curtisleopore,
+.img73055Icon {
+  position: relative;
+}
+.curtisleopore {
+  display: inline-block;
+  min-width: 63px;
+}
+.curtisLeoporeParent,
+.curtisleoporeWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.curtisleoporeWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-2);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.curtisLeoporeParent {
+  flex-direction: column;
+  gap: var(--gap-2);
+}
+.frameChild {
+  height: 31px;
+  width: 72px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: none;
+}
+.shareExternalLink1Streamli {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.tiktok {
+  position: relative;
+  z-index: 1;
+}
+.rectangleParent {
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  flex-direction: row;
+  padding: 9px var(--padding-8) 7px 9px;
+  gap: var(--gap-1);
+}
+.frameGroup,
+.frameWrapper,
+.rectangleParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  flex-direction: column;
+  padding: var(--padding-10) 0 0;
+  font-size: var(--font-size-12);
+  color: var(--color-black);
+}
+.frameGroup {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 17px 0 0;
+  gap: var(--gap-19);
+}
+.vectorIcon {
+  height: 13px;
+  width: 16px;
+  position: relative;
+}
+.hWrapper,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.hWrapper {
+  flex-direction: column;
+  padding: var(--padding-1) 0 0;
+}
+.vectorParent {
+  flex-direction: row;
+  gap: var(--gap-4);
+}
+.copy2Icon {
+  height: 16px;
+  width: 16px;
+  position: relative;
+}
+.dz9mbonk {
+  flex: 1;
+  position: relative;
+}
+.copy2Parent {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 9px;
+}
+.copy2Parent,
+.frameContainer,
+.frameDiv {
+  display: flex;
+  align-items: flex-start;
+}
+.frameDiv {
+  width: 145px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-1) 0 0;
+  box-sizing: border-box;
+}
+.frameContainer {
+  align-self: stretch;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  font-size: var(--font-size-12);
+  color: var(--color-gray-300);
+}
+.frameParent,
+.tradingViewInner {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.frameParent {
+  align-self: stretch;
+  justify-content: flex-start;
+  gap: 23px;
+}
+.tradingViewInner {
+  flex: 1;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-19);
+  box-sizing: border-box;
+  min-width: 146px;
+}
+.tradingView {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-19);
+  text-align: left;
+  font-size: var(--font-size-16);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.image992 {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.buyButtonChild {
+  height: 40px;
+  width: 159px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: none;
+}
+.buy {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  z-index: 1;
+}
+.buyButton {
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8) var(--padding-60);
+}
+.sell {
+  margin: 0;
+  position: relative;
+  font-size: inherit;
+  font-weight: 400;
+  font-family: inherit;
+  cursor: pointer;
+}
+.sellButton {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8) 0 0;
+}
+.actionButtons,
+.amountDetails,
+.buyButtonParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.buyButtonParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.actionButtons,
+.amountDetails {
+  justify-content: flex-start;
+}
+.actionButtons {
+  width: 251px;
+  padding: 0 9px 9px;
+  box-sizing: border-box;
+  font-size: var(--font-size-20);
+}
+.amountDetails {
+  padding: 0 var(--padding-5);
+}
+.amountAreaChild {
+  border: 0;
+  outline: 0;
+  width: 100%;
+  background-color: transparent;
+  align-self: stretch;
+  height: 40px;
+  position: relative;
+  border-radius: var(--br-10);
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  min-width: 190px;
+}
+.amountArea {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  color: var(--color-gray-300);
+}
+.sol {
+  position: relative;
+  font-weight: 600;
+}
+.solWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-6) 0 0;
+}
+.frameItem {
+  height: 26px;
+  width: 69px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: none;
+}
+.sol1 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.rectangleGroup {
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  justify-content: flex-start;
+  padding: var(--padding-6) var(--padding-4) var(--padding-5) var(--padding-11);
+}
+.frameParent2,
+.rectangleGroup,
+.solMaxArea {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frameParent2 {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  min-width: 129px;
+}
+.solMaxArea {
+  align-self: stretch;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 26px;
+}
+.balance076245242Sol {
+  position: relative;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  min-width: 108px;
+}
+.solBalance {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 67px;
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.solBalanceArea,
+.solBalanceAreaWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.solBalanceArea {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-6);
+}
+.solBalanceAreaWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-30) 0 var(--padding-20);
+}
+.tradeButtonChild {
+  height: 40px;
+  width: 317px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: none;
+}
+.frameParent1,
+.tradeButton {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tradeButton {
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  flex-direction: row;
+  padding: var(--padding-8) var(--padding-100) var(--padding-8) 103px;
+  font-size: var(--font-size-20);
+}
+.frameParent1 {
+  flex-direction: column;
+  gap: var(--gap-10);
+}
+.actionButtonsParent {
+  flex: 1;
+  flex-direction: column;
+  gap: var(--gap-12);
+}
+.actionButtonsParent,
+.image992Parent,
+.tradeControls,
+.tradingViewBuyInner {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.tradeControls {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-16) 0 var(--padding-14);
+}
+.image992Parent,
+.tradingViewBuyInner {
+  max-width: 100%;
+}
+.image992Parent {
+  flex: 1;
+  flex-direction: column;
+  gap: 41px;
+}
+.tradingViewBuyInner {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 13px 0 var(--padding-4);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-12);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+.tradingViewBuyChild {
+  width: 76px;
+  height: 279px;
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+  display: none;
+}
+.tradingViewBuy {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-black);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 43px var(--padding-14) 88px var(--padding-15);
+  box-sizing: border-box;
+  gap: 27px;
+  line-height: normal;
+  letter-spacing: normal;
+}

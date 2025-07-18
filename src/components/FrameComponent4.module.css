@@ -1,0 +1,142 @@
+.frameChild,
+.preBuyAmount {
+  position: relative;
+}
+.frameChild {
+  height: 40px;
+  flex: 1;
+  border-radius: var(--br-10);
+  max-width: 100%;
+  overflow: hidden;
+}
+.sol {
+  width: 100%;
+  border: 0;
+  outline: 0;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-12);
+  background-color: transparent;
+  height: 15px;
+  position: absolute;
+  margin: 0 !important;
+  top: 12px;
+  right: 15px;
+  color: var(--color-gray-300);
+  text-align: left;
+  display: inline-block;
+  text-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 0;
+  z-index: 1;
+}
+.vectorParent {
+  flex: 1;
+  flex-direction: row;
+  position: relative;
+}
+.frameWrapper,
+.solWrapper,
+.vectorParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.frameWrapper {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 0 var(--padding-6);
+}
+.solWrapper {
+  flex-direction: column;
+  padding: var(--padding-5) var(--padding-5) 0 0;
+}
+.secondOptionChild {
+  height: 26px;
+  width: 69px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: none;
+}
+.sol2 {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.secondOption {
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-5) 7px var(--padding-6) var(--padding-8);
+}
+.max {
+  position: relative;
+  font-weight: 600;
+}
+.maximumInput {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.frameContainer,
+.frameParent,
+.maximumInputWrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.maximumInputWrapper {
+  flex: 1;
+  flex-direction: column;
+  padding: var(--padding-5) 0 0;
+  box-sizing: border-box;
+  min-width: 66px;
+}
+.frameContainer,
+.frameParent {
+  flex-direction: row;
+}
+.frameParent {
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: var(--gap-24);
+}
+.frameContainer {
+  align-self: stretch;
+  padding: 0 var(--padding-30) 0 var(--padding-20);
+}
+.balance14Sol {
+  position: relative;
+  font-weight: 600;
+  white-space: pre-wrap;
+  display: inline-block;
+  min-width: 71px;
+}
+.balanceLabel,
+.preBuyAmountParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.balanceLabel {
+  flex-direction: row;
+  padding: 0 124px 0 122px;
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.preBuyAmountParent {
+  flex-direction: column;
+  gap: 7px;
+  text-align: left;
+  font-size: var(--font-size-12);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

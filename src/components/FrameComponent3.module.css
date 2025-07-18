@@ -1,0 +1,169 @@
+.frameChild {
+  height: 55px;
+  width: 55px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.frameChild,
+.phillipBanks {
+  position: relative;
+}
+.phillipBanksWrapper {
+  justify-content: flex-start;
+  padding: 0 var(--padding-15) 0 var(--padding-5);
+}
+.dummyVariableParent,
+.frameWrapper,
+.phillipBanksWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.dummyVariableParent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-20);
+}
+.frameWrapper {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-4) 0 var(--padding-11);
+}
+.following {
+  position: relative;
+  display: inline-block;
+  min-width: 39px;
+}
+.followingParent {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: var(--gap-20);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.frameContainer {
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-2);
+  font-size: var(--font-size-12);
+}
+.ellipseParent,
+.frameGroup {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+}
+.frameGroup {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--gap-8);
+}
+.ellipseParent {
+  flex-direction: row;
+  align-items: flex-end;
+  gap: 9px;
+  min-width: 112px;
+}
+.likes {
+  position: relative;
+  display: inline-block;
+  min-width: 22px;
+}
+.likesWrapper,
+.mParent {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.likesWrapper {
+  flex-direction: row;
+  padding: 0 var(--padding-6) 0 var(--padding-5);
+  font-size: var(--font-size-8);
+  color: var(--color-gray-300);
+}
+.mParent {
+  flex-direction: column;
+  gap: var(--gap-2);
+}
+.frameItem {
+  height: 31px;
+  width: 72px;
+  position: relative;
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  display: none;
+}
+.shareExternalLink1Streamli {
+  height: 15px;
+  width: 15px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.tiktok {
+  position: relative;
+  z-index: 1;
+}
+.tiktokWrapper {
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: var(--padding-1) 0 0;
+}
+.frameWrapper1,
+.rectangleParent,
+.tiktokWrapper {
+  display: flex;
+  align-items: flex-start;
+}
+.rectangleParent {
+  border-radius: var(--br-30);
+  background-color: var(--color-crimson-100);
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-8) var(--padding-8) 7px 9px;
+  gap: var(--gap-1);
+}
+.frameWrapper1 {
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0 0 var(--padding-24);
+  color: var(--color-black);
+}
+.createCoinInner,
+.frameDiv,
+.frameParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.frameDiv {
+  align-items: flex-end;
+  gap: var(--gap-14);
+  font-size: var(--font-size-12);
+}
+.createCoinInner,
+.frameParent {
+  align-items: flex-start;
+  max-width: 100%;
+}
+.frameParent {
+  flex: 1;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  gap: 31px;
+}
+.createCoinInner {
+  align-self: stretch;
+  padding: 0 0 var(--padding-14) var(--padding-5);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-14);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

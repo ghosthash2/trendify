@@ -1,0 +1,46 @@
+.description {
+  position: relative;
+}
+.descriptionWrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-1);
+}
+.descriptionContainer,
+.frameGroup,
+.frameParent {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.descriptionContainer {
+  border: 0 solid var(--color-white);
+  background-color: var(--color-black);
+  height: 80px;
+  width: auto;
+  outline: 0;
+  border-radius: var(--br-10);
+  box-sizing: border-box;
+  flex-direction: row;
+  padding: var(--padding-12) var(--padding-11);
+  font-family: var(--font-inter);
+  font-weight: 700;
+  font-size: var(--font-size-12);
+  color: var(--color-gray-300);
+}
+.frameGroup,
+.frameParent {
+  flex-direction: column;
+  gap: var(--gap-8);
+}
+.frameParent {
+  padding: 0 0 var(--padding-12);
+  gap: var(--gap-15);
+  text-align: left;
+  font-size: var(--font-size-12);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
